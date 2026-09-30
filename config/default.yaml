@@ -1,0 +1,88 @@
+# Default configuration for the Alboran Sea jellyfish stranding hindcast.
+
+domain:
+  # lon_min, lon_max, lat_min, lat_max
+  bbox: [-5.8, -1.5, 35.0, 37.0]
+
+forcing:
+  # Copernicus Marine, Mediterranean Sea Physics Reanalysis (MEDSEA_MULTIYEAR_PHY_006_004), 1/24 deg
+  surface_dataset: cmems_mod_med_phy-cur_my_4.2km_PT1H-m   # hourly means, surface level
+  deep_dataset: cmems_mod_med_phy-cur_my_4.2km_P1D-m       # daily means, 3-D
+  data_dir: data/raw
+  # daily 3-D levels used for depth interpolation (the nearest model level is downloaded)
+  levels_m: [10, 25, 50, 100, 150, 200, 300]
+  bathymetry: data/raw/static/bathymetry.nc              # cmems_mod_med_phy_my_4.2km_static (deptho)
+
+period:
+  start: "2017-01-01"
+  end: "2026-08-31"
+  spinup_days: 40   # particles released this long before each analysed year
+
+sources:
+  # Alternative hypotheses for where the animals come from. All are simulated at once and
+  # tagged, so their skill can be compared on identical currents.
+  - name: offshore_box        # area used in the original prototype
+    bbox: [-4.4, -3.0, 35.9, 36.3]
+    particles_per_day: 200
+  - name: alboran_basin       # animals everywhere offshore (transport-only hypothesis)
+    bbox: [-5.3, -1.6, 35.3, 36.7]
+    particles_per_day: 200
+  - name: atlantic_inflow     # import through the Strait of Gibraltar with the Atlantic Jet
+    bbox: [-5.75, -5.45, 35.85, 36.05]
+    particles_per_day: 200
+
+drift:
+  dt_seconds: 1800
+  horizontal_diffusivity: 1.0 # m^2/s (default; varied in the sensitivity experiment)
+  max_age_days: 40
+  max_stranding_depth_m: 25   # only animals in the upper layer strand (night layer: upper 25 m, Pastor-Prieto et al. 2021)
+  seed: 1
+
+# Diel vertical migration of adult Pelagia noctiluca (evidence: docs/vertical_behaviour.md).
+behaviour:
+  night_depth_m: 5            # Berline et al. (2013)
+  speed_m_per_h: 100          # ~2 m/min (Arai 1997, in Berline et al. 2013); 75-100 m/h in El Rahi et al. (2020)
+  bottom_clearance_m: 100     # stay 100 m above the seabed (Berline et al. 2013)
+  no_migration_below_m: 100   # no migration over the shelf shallower than 100 m (Berline et al. 2013)
+  day_depth_rel_sd: 0.2       # inter-individual spread of the day depth (live animals at 108-190 m, Toma et al. 2026)
+
+# Experiments: each entry is one simulation (x all years). Missing keys take the defaults above.
+experiments:
+  main:                       # vertical-behaviour hypotheses
+    - {day_depth_m: null}     # passive surface drifter (no migration)
+    - {day_depth_m: 50}       # shallow, ephyra-like migration
+    - {day_depth_m: 150}      # depth band of live animals in ROV surveys (reference)
+    - {day_depth_m: 300}      # classic value (Berline et al. 2013)
+  sensitivity:                # around the reference migration and the surface control
+    - {day_depth_m: 150, horizontal_diffusivity: 10.0}
+    - {day_depth_m: 150, speed_m_per_h: 50}
+    - {day_depth_m: 150, speed_m_per_h: 200}
+    - {day_depth_m: 150, day_depth_rel_sd: 0.0}
+    - {day_depth_m: null, horizontal_diffusivity: 10.0}
+
+observations:
+  scientific_name: Pelagia noctiluca
+  bbox: [-5.8, -1.5, 35.9, 37.0]
+  max_coast_distance_km: 5.0
+  max_uncertainty_m: 5000
+
+coast:
+  lat_min: 36.0
+  lon_min: -5.65
+  lon_max: -1.5
+  segment_width_deg: 0.125
+
+evaluation:
+  window_days: 15        # events are ranked against +-15 days at the same segment
+  lag_days: 1            # a stranding up to 1 day before an observation counts
+  max_age_days: [10, 20, 40]
+  calibration_years: [2017, 2021]
+  validation_years: [2022, 2026]
+  n_permutations: 10000
+
+# Figures use fixed configurations (declared here, not chosen from the results).
+figures:
+  display_runs: [surface_kh1, dvm50m_kh1, dvm150m_kh1, dvm300m_kh1]
+  timeseries_runs: [surface_kh1, dvm150m_kh1]
+  display_source: all_sources
+  display_age_days: 40

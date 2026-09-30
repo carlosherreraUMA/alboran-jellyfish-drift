@@ -1,0 +1,17 @@
+run,source,spearman_rho,p_value
+surface_kh1,all_sources,0.132,0.479
+surface_kh1,offshore_box,0.153,0.411
+surface_kh1,alboran_basin,0.254,0.167
+surface_kh1,atlantic_inflow,0.057,0.76
+dvm50m_kh1,all_sources,0.057,0.76
+dvm50m_kh1,offshore_box,-0.014,0.942
+dvm50m_kh1,alboran_basin,0.177,0.341
+dvm50m_kh1,atlantic_inflow,-0.019,0.92
+dvm150m_kh1,all_sources,-0.009,0.961
+dvm150m_kh1,offshore_box,-0.059,0.753
+dvm150m_kh1,alboran_basin,0.099,0.598
+dvm150m_kh1,atlantic_inflow,-0.064,0.734
+dvm300m_kh1,all_sources,-0.012,0.951
+dvm300m_kh1,offshore_box,0.0,0.999
+dvm300m_kh1,alboran_basin,0.05,0.789
+dvm300m_kh1,atlantic_inflow,-0.058,0.757

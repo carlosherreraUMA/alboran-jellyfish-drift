@@ -1,0 +1,36 @@
+{
+  "scientificName": "Pelagia noctiluca",
+  "taxonKey": 2264423,
+  "bbox": [
+    -5.8,
+    -1.5,
+    35.9,
+    37.0
+  ],
+  "retrieved_utc": "2026-09-29T15:45:14.860525+00:00",
+  "n_records": 316,
+  "download_predicate": {
+    "type": "and",
+    "predicates": [
+      {
+        "type": "equals",
+        "key": "TAXON_KEY",
+        "value": "2264423"
+      },
+      {
+        "type": "equals",
+        "key": "HAS_COORDINATE",
+        "value": "true"
+      },
+      {
+        "type": "equals",
+        "key": "HAS_GEOSPATIAL_ISSUE",
+        "value": "false"
+      },
+      {
+        "type": "within",
+        "geometry": "POLYGON((-5.8 35.9,-1.5 35.9,-1.5 37.0,-5.8 37.0,-5.8 35.9))"
+      }
+    ]
+  }
+}

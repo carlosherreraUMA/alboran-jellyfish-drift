@@ -1,0 +1,17 @@
+# Private material: original Colab notebooks and internal reports (never publish)
+private/
+
+# Large / regenerable data
+data/raw/
+outputs/
+*.nc
+*.zarr/
+*.mp4
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
+.ipynb_checkpoints/

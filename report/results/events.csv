@@ -1,0 +1,182 @@
+segment_id,date,n_records,label
+24,2017-02-07,1,24 Roquetas de Mar
+24,2017-03-20,1,24 Roquetas de Mar
+1,2017-05-27,5,01 Algeciras
+15,2017-06-04,1,15 Almunecar
+24,2017-07-07,1,24 Roquetas de Mar
+29,2017-07-17,1,29 Carboneras
+16,2017-07-29,3,16 Salobrena
+15,2017-09-25,1,15 Almunecar
+25,2018-05-20,1,25 Almeria
+18,2018-05-31,1,18 Castell de Ferro
+25,2018-06-02,1,25 Almeria
+18,2018-06-16,2,18 Castell de Ferro
+11,2018-07-19,1,11 Rincon de la Victoria
+10,2018-07-24,2,10 Rincon de la Victoria
+28,2018-07-25,1,28 San Jose
+7,2018-08-01,1,07 Calahonda
+10,2018-08-01,1,10 Rincon de la Victoria
+10,2018-08-02,1,10 Rincon de la Victoria
+17,2018-08-03,1,17 Motril
+8,2018-08-16,1,08 Fuengirola
+9,2018-08-16,1,09 Torremolinos
+10,2018-08-16,1,10 Rincon de la Victoria
+10,2018-08-30,1,10 Rincon de la Victoria
+1,2018-08-31,1,01 Algeciras
+24,2018-09-09,1,24 Roquetas de Mar
+10,2018-09-11,1,10 Rincon de la Victoria
+9,2018-09-15,1,09 Torremolinos
+14,2018-09-21,1,14 Nerja
+0,2018-09-27,1,00 Tarifa
+15,2018-10-14,1,15 Almunecar
+28,2019-05-01,1,28 San Jose
+27,2019-06-01,1,27 Cabo de Gata
+27,2019-07-25,1,27 Cabo de Gata
+16,2019-12-28,1,16 Salobrena
+15,2020-01-01,12,15 Almunecar
+28,2020-03-13,1,28 San Jose
+9,2021-04-16,1,09 Torremolinos
+1,2021-04-17,1,01 Algeciras
+25,2021-05-26,1,25 Almeria
+24,2021-08-05,1,24 Roquetas de Mar
+10,2021-08-10,1,10 Rincon de la Victoria
+3,2021-08-13,1,03 Sotogrande
+17,2021-08-13,1,17 Motril
+8,2021-08-15,1,08 Fuengirola
+7,2021-08-16,1,07 Calahonda
+1,2021-08-24,3,01 Algeciras
+3,2021-08-25,2,03 Sotogrande
+2,2021-08-26,1,02 Gibraltar
+3,2021-08-26,1,03 Sotogrande
+4,2021-09-16,1,04 Estepona
+28,2021-09-16,1,28 San Jose
+28,2021-09-19,1,28 San Jose
+6,2021-11-04,1,06 Marbella
+14,2021-11-21,1,14 Nerja
+10,2021-12-30,2,10 Rincon de la Victoria
+10,2022-01-02,1,10 Rincon de la Victoria
+27,2022-01-30,1,27 Cabo de Gata
+8,2022-04-18,1,08 Fuengirola
+22,2022-05-13,1,22 Almerimar
+16,2022-06-15,1,16 Salobrena
+14,2022-07-16,1,14 Nerja
+15,2022-07-16,1,15 Almunecar
+15,2022-07-18,2,15 Almunecar
+10,2022-07-31,1,10 Rincon de la Victoria
+29,2022-08-01,1,29 Carboneras
+29,2022-08-13,1,29 Carboneras
+29,2022-08-17,1,29 Carboneras
+29,2022-08-18,1,29 Carboneras
+30,2022-08-19,1,30 Carboneras
+27,2022-08-24,1,27 Cabo de Gata
+15,2022-08-29,1,15 Almunecar
+14,2022-09-20,2,14 Nerja
+28,2022-09-25,1,28 San Jose
+25,2022-10-09,1,25 Almeria
+22,2022-10-12,1,22 Almerimar
+5,2022-11-01,1,05 San Pedro de Alcantara
+29,2022-11-12,1,29 Carboneras
+2,2022-11-14,1,02 Gibraltar
+7,2022-11-14,2,07 Calahonda
+28,2022-12-19,3,28 San Jose
+28,2022-12-27,1,28 San Jose
+7,2023-01-03,1,07 Calahonda
+15,2023-01-24,2,15 Almunecar
+13,2023-01-27,1,13 Torrox Costa
+28,2023-01-29,1,28 San Jose
+15,2023-01-30,1,15 Almunecar
+15,2023-01-31,2,15 Almunecar
+15,2023-02-04,1,15 Almunecar
+22,2023-02-04,1,22 Almerimar
+15,2023-02-06,1,15 Almunecar
+14,2023-02-08,1,14 Nerja
+7,2023-02-12,6,07 Calahonda
+14,2023-02-16,1,14 Nerja
+15,2023-03-13,1,15 Almunecar
+10,2023-04-04,1,10 Rincon de la Victoria
+15,2023-07-09,1,15 Almunecar
+14,2023-07-30,4,14 Nerja
+5,2023-08-12,7,05 San Pedro de Alcantara
+12,2023-09-10,1,12 Torre del Mar
+25,2023-09-25,1,25 Almeria
+29,2023-12-06,1,29 Carboneras
+14,2023-12-27,1,14 Nerja
+22,2024-05-11,1,22 Almerimar
+28,2024-05-12,1,28 San Jose
+24,2024-06-12,1,24 Roquetas de Mar
+15,2024-08-17,1,15 Almunecar
+15,2024-08-22,1,15 Almunecar
+22,2024-10-26,7,22 Almerimar
+1,2024-11-16,1,01 Algeciras
+9,2024-11-30,1,09 Torremolinos
+10,2024-11-30,3,10 Rincon de la Victoria
+3,2024-12-31,1,03 Sotogrande
+15,2025-01-03,1,15 Almunecar
+22,2025-01-03,1,22 Almerimar
+22,2025-01-19,1,22 Almerimar
+28,2025-05-07,1,28 San Jose
+28,2025-05-18,1,28 San Jose
+7,2025-06-19,1,07 Calahonda
+2,2025-06-29,1,02 Gibraltar
+5,2025-07-08,1,05 San Pedro de Alcantara
+15,2025-07-10,1,15 Almunecar
+24,2025-07-14,1,24 Roquetas de Mar
+9,2025-07-18,1,09 Torremolinos
+10,2025-07-18,1,10 Rincon de la Victoria
+24,2025-07-26,1,24 Roquetas de Mar
+18,2025-07-27,1,18 Castell de Ferro
+14,2025-07-28,1,14 Nerja
+9,2025-08-01,1,09 Torremolinos
+3,2025-08-02,1,03 Sotogrande
+2,2025-08-04,1,02 Gibraltar
+1,2025-08-13,1,01 Algeciras
+10,2025-08-16,1,10 Rincon de la Victoria
+24,2025-08-23,3,24 Roquetas de Mar
+6,2025-08-26,1,06 Marbella
+28,2025-08-31,1,28 San Jose
+2,2025-09-04,1,02 Gibraltar
+3,2025-09-04,1,03 Sotogrande
+22,2025-09-04,7,22 Almerimar
+8,2025-09-05,1,08 Fuengirola
+19,2025-09-05,1,19 La Rabita
+10,2025-09-08,1,10 Rincon de la Victoria
+10,2025-09-13,1,10 Rincon de la Victoria
+16,2025-09-14,1,16 Salobrena
+25,2025-10-02,1,25 Almeria
+3,2025-10-17,2,03 Sotogrande
+25,2025-10-18,2,25 Almeria
+6,2025-10-26,1,06 Marbella
+2,2025-10-27,1,02 Gibraltar
+15,2026-03-24,1,15 Almunecar
+15,2026-03-25,8,15 Almunecar
+28,2026-04-08,1,28 San Jose
+27,2026-04-11,1,27 Cabo de Gata
+21,2026-04-20,1,21 Balerma
+7,2026-04-28,1,07 Calahonda
+6,2026-05-08,1,06 Marbella
+28,2026-05-13,1,28 San Jose
+27,2026-05-19,1,27 Cabo de Gata
+25,2026-05-26,3,25 Almeria
+15,2026-05-27,1,15 Almunecar
+25,2026-05-27,1,25 Almeria
+25,2026-05-30,1,25 Almeria
+27,2026-05-31,1,27 Cabo de Gata
+28,2026-06-01,1,28 San Jose
+27,2026-06-09,1,27 Cabo de Gata
+28,2026-06-27,1,28 San Jose
+8,2026-06-28,1,08 Fuengirola
+9,2026-06-30,1,09 Torremolinos
+5,2026-07-08,1,05 San Pedro de Alcantara
+28,2026-07-12,1,28 San Jose
+29,2026-07-22,1,29 Carboneras
+17,2026-07-23,1,17 Motril
+15,2026-07-29,1,15 Almunecar
+9,2026-07-30,1,09 Torremolinos
+11,2026-07-30,1,11 Rincon de la Victoria
+15,2026-08-01,2,15 Almunecar
+17,2026-08-08,1,17 Motril
+25,2026-08-08,1,25 Almeria
+25,2026-08-09,3,25 Almeria
+25,2026-08-11,1,25 Almeria
+9,2026-08-15,1,09 Torremolinos
+15,2026-08-15,1,15 Almunecar

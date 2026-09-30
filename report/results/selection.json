@@ -1,0 +1,27 @@
+{
+  "selected_on_calibration": {
+    "run": "dvm150m_kh1",
+    "source": "offshore_box",
+    "max_age_days": 10
+  },
+  "calibration": {
+    "n_events": 55,
+    "mean_score": 0.5187683284457478,
+    "ci_low": 0.49560117302052786,
+    "ci_high": 0.5489809384164223,
+    "p_value": 0.0336966303369663,
+    "hit_rate": 0.05454545454545454,
+    "base_rate": 0.01700879765395894
+  },
+  "validation": {
+    "period": "validation",
+    "n_events": 126,
+    "mean_score": 0.5008960573476702,
+    "ci_low": 0.49436763952892987,
+    "ci_high": 0.5084517409114182,
+    "p_value": 0.46825317468253175,
+    "hit_rate": 0.015873015873015872,
+    "base_rate": 0.012032770097286226
+  },
+  "n_configurations": 48
+}

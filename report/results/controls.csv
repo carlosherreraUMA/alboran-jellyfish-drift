@@ -1,0 +1,4 @@
+control,mean_score,p_value
+positive (synthetic events drawn from the model index),0.911,0.0001999600079984003
+"null (200 sets of random dates), mean score",0.4988,
+null: fraction of sets with p < 0.05,0.035,

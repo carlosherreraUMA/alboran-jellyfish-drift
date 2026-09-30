@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "jellydrift: Lagrangian hindcasts of jellyfish (Pelagia noctiluca) stranding on the Alboran Sea coast"
+type: software
+authors:
+  - family-names: "Herrera Pérez"
+    given-names: "Carlos"
+version: 0.1.0
+date-released: 2026-09-30
+license: MIT
+keywords:
+  - jellyfish
+  - Pelagia noctiluca
+  - Alboran Sea
+  - Lagrangian particle tracking
+  - stranding
+  - Copernicus Marine
+  - citizen science
+references:
+  - type: data
+    title: "Mediterranean Sea Physics Reanalysis (CMEMS MED-Currents)"
+    authors:
+      - family-names: Escudier
+        given-names: R.
+      - name: "et al."
+    doi: 10.25423/CMCC/MEDSEA_MULTIYEAR_PHY_006_004_E3R1
+  - type: article
+    title: "Modeling jellyfish Pelagia noctiluca transport and stranding in the Ligurian Sea"
+    authors:
+      - family-names: Berline
+        given-names: L.
+      - family-names: Zakardjian
+        given-names: B.
+      - family-names: Molcard
+        given-names: A.
+      - family-names: Ourmières
+        given-names: Y.
+      - family-names: Guihou
+        given-names: K.
+    journal: "Marine Pollution Bulletin"
+    volume: 70
+    start: 90
+    end: 99
+    year: 2013
