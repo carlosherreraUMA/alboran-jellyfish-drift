@@ -8,6 +8,8 @@ authors:
 version: 0.1.0
 date-released: 2026-09-30
 license: MIT
+doi: 10.5281/zenodo.23054953
+repository-code: "https://github.com/carlosherreraUMA/alboran-jellyfish-drift"
 keywords:
   - jellyfish
   - Pelagia noctiluca

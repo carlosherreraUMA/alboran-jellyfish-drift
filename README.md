@@ -1,5 +1,7 @@
 # jellydrift — jellyfish stranding hindcasts for the Alboran Sea
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23054953.svg)](https://doi.org/10.5281/zenodo.23054953)
+
 **Can ocean currents alone explain when and where mauve stingers (*Pelagia noctiluca*) wash up on
 the beaches of southern Spain?** This repository contains an open, reproducible Lagrangian model
 that transports virtual jellyfish with Copernicus Marine currents, records where they strand along
@@ -96,6 +98,11 @@ docs/vertical_behaviour.md evidence review behind the vertical-behaviour model
 report/                    technical report, figures and result tables
 tests/                     unit tests
 ```
+
+## How to cite
+
+Herrera Pérez, C. (2026). *jellydrift: Lagrangian hindcasts of jellyfish (Pelagia noctiluca) stranding on
+the Alboran Sea coast* (v0.1.0) [Software and technical report]. Zenodo. https://doi.org/10.5281/zenodo.23054953
 
 ## Data sources and licences
 

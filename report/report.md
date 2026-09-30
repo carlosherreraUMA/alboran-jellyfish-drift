@@ -1,6 +1,6 @@
 # Do ocean currents explain mauve-stinger strandings on the Alboran Sea coast? An open Lagrangian hindcast evaluated with citizen-science records
 
-**Carlos Herrera Pérez** · Technical report, v0.1 · 2026
+**Carlos Herrera Pérez** · Technical report, v0.1 · 2026 · https://doi.org/10.5281/zenodo.23054953
 
 **Abstract.** Mauve stingers (*Pelagia noctiluca*) regularly strand on the beaches of the Alboran
 Sea, but whether their arrival can be anticipated from ocean currents alone has not been tested
